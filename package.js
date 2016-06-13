@@ -1,7 +1,7 @@
 Package.describe({
     name: 'cloudspider:entities',
     version: '0.4.1',
-    summary: 'Allows simple publications and actions to and from from different datasources then mongodb (like Rest)',
+    summary: 'Allows simple publications and actions with other datasources (like Rest)',
     git: 'https://github.com/Redroest/entities',
     documentation: 'README.md'
 });
