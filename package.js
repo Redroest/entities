@@ -13,10 +13,10 @@ Package.onUse(function (api) {
         'mongo',
         'templating',
         'ecmascript',
-        'aldeed:simple-schema',
-        'aldeed:collection2',
-        'aldeed:autoform',
-        'alanning:roles'
+        'aldeed:simple-schema@=1.5.3',
+        'aldeed:collection2@=2.9.1',
+        'aldeed:autoform@=5.8.1',
+        'alanning:roles@=1.2.15'
     ]);
 
     api.mainModule('common/entity.js', ['client', 'server']);
